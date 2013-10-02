@@ -1,0 +1,46 @@
+
+**** Build of configuration Debug for project RealTimeClock ****
+
+make all 
+Building file: ../src/Clock.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../RealTimeClock_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.20.b -mno-xl-soft-mul -MMD -MP -MF"src/Clock.d" -MT"src/Clock.d" -o"src/Clock.o" "../src/Clock.c"
+../src/Clock.c: In function 'timer_interrupt_handler':
+../src/Clock.c:31: warning: implicit declaration of function 'update_time'
+../src/Clock.c:41: warning: implicit declaration of function 'read_buttons'
+../src/Clock.c: At top level:
+../src/Clock.c:65: warning: conflicting types for 'read_buttons'
+../src/Clock.c:41: warning: previous implicit declaration of 'read_buttons' was here
+../src/Clock.c: In function 'read_buttons':
+../src/Clock.c:78: warning: implicit declaration of function 'change_time'
+../src/Clock.c: At top level:
+../src/Clock.c:104: warning: conflicting types for 'change_time'
+../src/Clock.c:78: warning: previous implicit declaration of 'change_time' was here
+../src/Clock.c:127: warning: conflicting types for 'update_time'
+../src/Clock.c:31: warning: previous implicit declaration of 'update_time' was here
+Finished building: ../src/Clock.c
+' '
+Building target: RealTimeClock.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../RealTimeClock_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.20.b -mno-xl-soft-mul -o"RealTimeClock.elf"  ./src/Clock.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: RealTimeClock.elf
+' '
+Invoking: MicroBlaze Print Size
+mb-size RealTimeClock.elf  |tee "RealTimeClock.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8706	    392	   2166	  11264	   2c00	RealTimeClock.elf
+Finished building: RealTimeClock.elf.size
+' '
+Invoking: Xilinx ELF Check
+elfcheck RealTimeClock.elf -hw ../../RealTimeClockExp2_hw_platform/system.xml -pe microblaze_0  |tee "RealTimeClock.elf.elfcheck"
+elfcheck
+Xilinx EDK 13.4 Build EDK_O.87xd
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Command Line: elfcheck -hw ../../RealTimeClockExp2_hw_platform/system.xml -pe
+microblaze_0 RealTimeClock.elf 
+
+ELF file	: RealTimeClock.elf
+elfcheck passed.
+Finished building: RealTimeClock.elf.elfcheck
+' '

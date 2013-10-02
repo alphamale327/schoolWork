@@ -1,0 +1,18 @@
+C:\EE427\RealTimeClockExp2\implementation\system.ngc 1379098153
+C:/EE427/RealTimeClockExp2/implementation/push_buttons_5bits_wrapper.ngc 1379098118
+C:/EE427/RealTimeClockExp2/implementation/dip_switches_8bits_wrapper.ngc 1379098118
+C:/EE427/RealTimeClockExp2/implementation/rs232_uart_1_wrapper.ngc 1379098118
+C:/EE427/RealTimeClockExp2/implementation/proc_sys_reset_0_wrapper.ngc 1379098117
+C:/EE427/RealTimeClockExp2/implementation/clock_generator_0_wrapper.ngc 1379098135
+C:/EE427/RealTimeClockExp2/implementation/microblaze_0_ilmb_wrapper.ngc 1379098123
+C:/EE427/RealTimeClockExp2/implementation/microblaze_0_dlmb_wrapper.ngc 1379098127
+C:/EE427/RealTimeClockExp2/implementation/axi4lite_0_wrapper.ngc 1379098139
+C:/EE427/RealTimeClockExp2/implementation/microblaze_0_wrapper.ngc 1379098131
+C:/EE427/RealTimeClockExp2/implementation/microblaze_0_intc_wrapper.ngc 1379098117
+C:/EE427/RealTimeClockExp2/implementation/microblaze_0_i_bram_ctrl_wrapper.ngc 1379098117
+C:/EE427/RealTimeClockExp2/implementation/microblaze_0_d_bram_ctrl_wrapper.ngc 1379098118
+C:/EE427/RealTimeClockExp2/implementation/debug_module_wrapper.ngc 1379098118
+C:/EE427/RealTimeClockExp2/implementation/leds_8bits_wrapper.ngc 1379098118
+C:/EE427/RealTimeClockExp2/implementation/fit_timer_0_wrapper.ngc 1379098118
+C:/EE427/RealTimeClockExp2/implementation/microblaze_0_bram_block_wrapper.ngc 1379098118
+OK
